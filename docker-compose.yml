@@ -26,7 +26,7 @@ services:
 
   mybackend-dapr:
     image: "daprio/daprd:latest"
-    command: [ "./daprd", "-app-id", "Mybackend", "-app-port", "80" ]
+    command: [ "./daprd", "-app-id", "MyBackEnd", "-app-port", "80" ]
     depends_on:
     - mybackend
     network_mode: "service:mybackend"
